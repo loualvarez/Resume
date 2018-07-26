@@ -177,3 +177,160 @@ svg {
   font-family: CircularBold;
   src: url(../fonts/circularstd-bold-webfont.woff);
 }
+
+
+
+    /* Responsiveness */
+
+    /* Extra Small Devices, Phones */
+
+    @media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+
+      .profile-pic {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      #personal-info .info {
+        margin-top: 220px;
+        width: 100%;
+        text-align: center;
+      }
+
+      #summary .col-sm-3,
+      #experience .col-sm-3 {
+        color: #999999;
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 0.5em;
+      }
+
+      #contact .col-sm-3 {
+        color: #999999;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 0.5em;
+        text-align: center;
+        margin-bottom: 21px;
+      }
+
+      #contact .col-3 {
+        text-align: center;
+        max-width: 90%;
+        flex: 0 0 100%;
+        margin: 5px 0;
+        background: #000;
+        padding: 15px 0;
+        margin-left: 5%;
+        border-radius: 100px;
+        color: #ffffff;
+        font-weight: bold;
+      }
+
+
+      #contact .col-3 p:first-child {
+        display: none;
+      }
+
+      #contact .col-3 p:nth-child(2) a,
+      #contact .col-3 p:nth-child(2)  {
+        color: #ffffff;
+      }
+
+      #personal-info {
+        padding-bottom: 0px;
+      }
+
+      #personal-info .actions {
+        left: 50%;
+        position: relative;
+        top: 0;
+        margin: 20px 0;
+        display: block;
+        float: left;
+        transform: translateX(-50%);
+      }
+
+    }
+
+    @media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px) {
+
+      .profile-pic {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      #personal-info .info {
+        margin-top: 220px;
+        width: 100%;
+        text-align: center;
+      }
+
+      #summary .col-sm-3,
+      #experience .col-sm-3 {
+        color: #999999;
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 0.5em;
+      }
+
+      #contact .col-sm-3 {
+        color: #999999;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 0.5em;
+        text-align: center;
+        margin-bottom: 21px;
+      }
+
+      #contact .col-3 {
+        text-align: center;
+        max-width: 90%;
+        flex: 0 0 100%;
+        margin: 5px 0;
+        background: #000;
+        padding: 15px 0;
+        margin-left: 5%;
+        border-radius: 100px;
+        color: #ffffff;
+        font-weight: bold;
+      }
+
+
+      #contact .col-3 p:first-child {
+        display: none;
+      }
+
+      #contact .col-3 p:nth-child(2) a,
+      #contact .col-3 p:nth-child(2)  {
+        color: #ffffff;
+      }
+
+      #personal-info {
+        padding-bottom: 0px;
+      }
+
+      #personal-info .actions {
+        left: 50%;
+        position: relative;
+        top: 0;
+        margin: 20px 0;
+        display: block;
+        float: left;
+        transform: translateX(-50%);
+      }
+
+      }}
