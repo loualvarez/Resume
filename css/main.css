@@ -66,11 +66,12 @@ a:hover {
   width: 100%;
   display: block;
   position: absolute;
-  top: calc(-50%/4);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 svg {
-  overflow: hidden; // Hide the overflow in IE
+  overflow: hidden; /* Hide the overflow in IE */
   vertical-align: initial;
 }
 
@@ -335,4 +336,4 @@ svg {
         transform: translateX(-50%);
       }
 
-      }}
+    }
